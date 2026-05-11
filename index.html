@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Serene Sunset Funeral Home | Compassion & Dignity</title>
+  <!-- External CSS & JS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo"><a href="#">Serene Sunset</a></div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Honoring Life,<br>Embracing Peace</h1>
+      <div class="tagline">Compassionate & affordable funeral services tailored to your family’s traditions, faiths, and customs. Available 24/7.</div>
+      <a href="#contact" class="btn">Contact Us Anytime <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Services Section (CLICKABLE cards + Casket Selection) -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+        <!-- Cadillac Hearse -->
+        <div class="service-card" data-service="hear">
+          <div class="service-icon"><i class="fas fa-car-side"></i></div>
+          <h3>Cadillac Hearse</h3>
+          <p>Dignified transportation with a premium fleet, respecting every tradition.</p>
+          <span class="click-hint"><i class="fas fa-hand-pointer"></i> Click for details</span>
+        </div>
+        <!-- Wreaths & Floral -->
+        <div class="service-card" data-service="floral">
+          <div class="service-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Wreaths & Floral Arrangements</h3>
+          <p>Custom floral tributes to express love, remembrance, and comfort.</p>
+          <span class="click-hint"><i class="fas fa-hand-pointer"></i> Click for details</span>
+        </div>
+        <!-- Funeral Programs -->
+        <div class="service-card" data-service="programs">
+          <div class="service-icon"><i class="fas fa-scroll"></i></div>
+          <h3>Funeral Programs & Announcements</h3>
+          <p>Beautifully designed keepsakes and death announcements for families.</p>
+          <span class="click-hint"><i class="fas fa-hand-pointer"></i> Click for details</span>
+        </div>
+        <!-- Site & Tomb -->
+        <div class="service-card" data-service="tomb">
+          <div class="service-icon"><i class="fas fa-landmark"></i></div>
+          <h3>Site Acquisition, Tomb Construction & Tombstones</h3>
+          <p>Complete cemetery solutions: plots, mausoleums, and memorial stones.</p>
+          <span class="click-hint"><i class="fas fa-hand-pointer"></i> Click for details</span>
+        </div>
+        <!-- Rentals -->
+        <div class="service-card" data-service="rentals">
+          <div class="service-icon"><i class="fas fa-chair"></i></div>
+          <h3>Chairs, Tables & Tents Rentals</h3>
+          <p>Elegant event rentals for memorial services, receptions, or gatherings.</p>
+          <span class="click-hint"><i class="fas fa-hand-pointer"></i> Click for details</span>
+        </div>
+        <!-- Casket Selection (new) -->
+        <div class="service-card" data-service="casket">
+          <div class="service-icon"><i class="fas fa-box"></i></div>
+          <h3>Casket Selection</h3>
+          <p>Wide range of handcrafted caskets: wood, metal, eco-friendly & custom designs.</p>
+          <span class="click-hint"><i class="fas fa-hand-pointer"></i> Click for details</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Mission -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Our Promise</h2>
+      <div class="about-text">
+        <p>Our professional and caring staff takes pride in providing high quality and affordable funeral services that meet the special needs of your family.</p>
+        <p style="margin-top: 1.2rem;">We offer a complete range of quality products and services and are experienced in accommodating many faiths and customs. We invite you to contact us with your questions, 24 hours a day, 7 days a week, and we are glad to arrange a meeting to discuss your needs.</p>
+        <p style="margin-top: 1.2rem; font-weight: 500;">It is our goal to support you through every step of your arrangements and to pay tribute to the special memory of your loved one.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">We Are Here For You</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Reach Out Anytime</h3>
+          <p>Available 24/7 — we will respond with warmth and urgency.</p>
+          <div class="contact-details">
+            <p><i class="fas fa-phone-alt"></i> (555) 246-8800</p>
+            <p><i class="fas fa-envelope"></i> care@serenesunsetfh.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> 224 Sunset Lane, Serenity Valley, SV 90210</p>
+            <p><i class="fas fa-clock"></i> 24 hours | 7 days a week</p>
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <i class="fas fa-sun" style="color:#e7b183;"></i> <em>“We walk with you, every step.”</em>
+          </div>
+        </div>
+
+        <form id="contactForm" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="serviceInterest">I'm interested in</label>
+            <select id="serviceInterest" name="serviceInterest">
+              <option value="">-- Select a service --</option>
+              <option>Cadillac Hearse</option>
+              <option>Wreaths & Floral Arrangements</option>
+              <option>Funeral Programs & Announcements</option>
+              <option>Site Acquisition & Tombstones</option>
+              <option>Chairs/Tables/Tents Rentals</option>
+              <option>Casket Selection</option>
+              <option>General arrangements</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message / special requests</label>
+            <textarea id="message" rows="4" placeholder="Tell us how we can help..."></textarea>
+          </div>
+          <button type="submit" class="btn">Request a Call or Meeting <i class="fas fa-heart"></i></button>
+          <p id="formFeedback" style="margin-top: 1rem; font-size: 0.85rem; text-align: center;"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>Serene Sunset Funeral Home — Compassion, dignity, and grace for every farewell.</p>
+    <p style="margin-top: 0.7rem; font-size: 0.85rem;">© 2026 · Honoring life, embracing peace</p>
+  </div>
+</footer>
+
+<!-- Modal -->
+<div id="serviceModal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <h3 id="modalTitle">Service Detail</h3>
+    <div id="modalBody" class="modal-desc"></div>
+    <button class="modal-btn" id="modalContactBtn">Contact Us About This Service <i class="fas fa-chevron-right"></i></button>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
